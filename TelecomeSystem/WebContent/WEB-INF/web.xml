@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>TelecomeSystem</display-name>
+  <welcome-file-list>
+    <welcome-file>userlogin.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <filter>
+     <filter-name>character</filter-name>
+     <filter-class>com.telecome.utils.CharacterFilter</filter-class>
+  </filter>
+  <filter-mapping>
+      <filter-name>character</filter-name>
+      <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+</web-app>

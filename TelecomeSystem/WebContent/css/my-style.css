@@ -1,0 +1,13 @@
+.navbar-header{
+	width: 300px;
+}
+body{
+	height: 100%;
+}
+.phoneview{
+	width: 300px;
+	height: 500px;
+}
+.button-row{
+	height: 80px;
+}
